@@ -2,7 +2,8 @@ library(dplyr)
 library(lubridate)
 library(ggplot2)
 library(tidyr)
-setwd("~/Documents/DS Project")
+
+
 nyc <- read.csv("NYPD_Motor_Vehicle_Cleaned.csv" , stringsAsFactors = FALSE)
 
 # Remove X column:
