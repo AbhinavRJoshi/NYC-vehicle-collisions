@@ -1,6 +1,6 @@
 #One Script to rule them all, one Script to find them, One Script to bring them all and in the darkness bind them.
 
-#Load all the necessary libraries
+#Loading the necessary libraries
 library(dplyr)
 library(lubridate)
 library(ggplot2)
@@ -12,6 +12,7 @@ library(flexclust)
 library(rpart)
 library(e1071)
 library(caret)
+
 
 #Setting the working directory
 #ATTENTION: Change directory according to your own system
