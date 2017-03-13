@@ -1,4 +1,4 @@
-setwd("C:/Users/abhi2/Downloads")
+
 nyc_collisions = read.csv("NYPD_Motor_Vehicle_Collisions.csv")
 #Loading necessary files
 acceptable_rng = 0.01
