@@ -66,7 +66,7 @@ colnames(uniquezip) = c("ZIP.CODE","LONGITUDE","LATITUDE")
 #renameing columns to remove the .mn
 
 nyc_collisions = merge(uniquezip,nyc_collisions,by="ZIP.CODE", all.y = TRUE)
-#merging with orignal dataset
+#Merging with orignal dataset
 
 nyc_collisions$LONGITUDE.y[is.na(nyc_collisions$LONGITUDE.y)] = nyc_collisions$LONGITUDE[is.na(nyc_collisions$LONGITUDE.y)]
 nyc_collisions$LATITUDE.y[is.na(nyc_collisions$LATITUDE.y)] = nyc_collisions$LATITUDE[is.na(nyc_collisions$LATITUDE.y)]
