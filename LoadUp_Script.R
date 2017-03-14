@@ -20,6 +20,6 @@ nyc <- separate(nyc, TIME , c("Hour", "Min"), sep = ":")
 nyc <- separate(nyc, DATE2 , c("YEAR", "MONTH" , "DAY"), sep = "-")
 
 
-# Removing 2012 and 2017 observations
+# Removing observations from 2012 and 2017
 nyc <- nyc %>%
   filter(YEAR != '2012' , YEAR != '2017')
