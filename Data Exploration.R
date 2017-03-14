@@ -9,7 +9,7 @@ ggplot(nyc , aes(x  = as.numeric(MONTH))) + geom_histogram(stat = 'count', bins 
 
 # Plotting injuries by vehicle count
 
-#Create new vehicle count variable
+#create new vehicle count variable
 nyc$vehicle.count <- pmax(as.numeric(nyc$VEHICLE.TYPE.CODE.1 != "") + 
                             as.numeric(nyc$VEHICLE.TYPE.CODE.2 != "") +
                             as.numeric(nyc$VEHICLE.TYPE.CODE.3 != "") +
