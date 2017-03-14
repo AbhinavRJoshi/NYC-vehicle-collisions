@@ -22,7 +22,7 @@ setwd("C:/Users/abhi2/Downloads")
 #Loading our cleaned csv
 nyc <- read.csv("NYPD_Motor_Vehicle_Collisions - Locations Cleaned.csv" , stringsAsFactors = FALSE)
 
-# Remove X column:
+# Remove X column
 nyc <- nyc %>%
   select(-X)
 
